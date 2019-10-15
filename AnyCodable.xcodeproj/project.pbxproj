@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		F5A165EC23566D9400C37B7B /* AnyCodable.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A165EA23566D9400C37B7B /* AnyCodable.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5A165F9235677F300C37B7B /* KeyedEncodingContainerProtocol+AnyCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A165F6235677F300C37B7B /* KeyedEncodingContainerProtocol+AnyCodable.swift */; };
+		F5A165FA235677F300C37B7B /* KeyedContainerProtocol+EvaluatingNil.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A165F7235677F300C37B7B /* KeyedContainerProtocol+EvaluatingNil.swift */; };
+		F5A165FB235677F300C37B7B /* AnyCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A165F8235677F300C37B7B /* AnyCodable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F5A165E723566D9400C37B7B /* AnyCodable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AnyCodable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5A165EA23566D9400C37B7B /* AnyCodable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AnyCodable.h; sourceTree = "<group>"; };
 		F5A165EB23566D9400C37B7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5A165F6235677F300C37B7B /* KeyedEncodingContainerProtocol+AnyCodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KeyedEncodingContainerProtocol+AnyCodable.swift"; sourceTree = "<group>"; };
+		F5A165F7235677F300C37B7B /* KeyedContainerProtocol+EvaluatingNil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KeyedContainerProtocol+EvaluatingNil.swift"; sourceTree = "<group>"; };
+		F5A165F8235677F300C37B7B /* AnyCodable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnyCodable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -46,8 +52,27 @@
 		F5A165E923566D9400C37B7B /* AnyCodable */ = {
 			isa = PBXGroup;
 			children = (
+				F5A165F4235677F300C37B7B /* Sources */,
 				F5A165EA23566D9400C37B7B /* AnyCodable.h */,
 				F5A165EB23566D9400C37B7B /* Info.plist */,
+			);
+			path = AnyCodable;
+			sourceTree = "<group>";
+		};
+		F5A165F4235677F300C37B7B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F5A165F5235677F300C37B7B /* AnyCodable */,
+			);
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		F5A165F5235677F300C37B7B /* AnyCodable */ = {
+			isa = PBXGroup;
+			children = (
+				F5A165F6235677F300C37B7B /* KeyedEncodingContainerProtocol+AnyCodable.swift */,
+				F5A165F7235677F300C37B7B /* KeyedContainerProtocol+EvaluatingNil.swift */,
+				F5A165F8235677F300C37B7B /* AnyCodable.swift */,
 			);
 			path = AnyCodable;
 			sourceTree = "<group>";
@@ -130,6 +155,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5A165FA235677F300C37B7B /* KeyedContainerProtocol+EvaluatingNil.swift in Sources */,
+				F5A165F9235677F300C37B7B /* KeyedEncodingContainerProtocol+AnyCodable.swift in Sources */,
+				F5A165FB235677F300C37B7B /* AnyCodable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
